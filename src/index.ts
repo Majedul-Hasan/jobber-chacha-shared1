@@ -25,3 +25,5 @@ export {
     IMessageDetails,
     IMessageDocument
 } from "./interfaces/chat.interface"
+
+export { IEmailLocals } from "./interfaces/email.interface"
