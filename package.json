@@ -39,7 +39,9 @@
   },
   "types": "./src/index.d.ts",
   "dependencies": {
-    "express": "^4.21.2"
+    "@elastic/elasticsearch": "^8.17.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.26.4",
