@@ -38,3 +38,14 @@ export {
     IGigsProps,
     ISelectedBudget
 } from "./interfaces/gig.interface"
+
+export {
+    IOrderNotifcation,
+    IOffer,
+    IDeliveredWork,
+    IExtendedDelivery,
+    IOrderDocument,
+    IOrderEvents,
+    IOrderMessage,
+    IOrderReview
+} from "./interfaces/order.interface"
