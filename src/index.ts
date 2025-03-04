@@ -56,3 +56,11 @@ export {
     IReviewDocument,
     IReviewMessageDetails
 } from "./interfaces/review.interface"
+export {
+    ITerm,
+    IHitsTotal,
+    IPaginateProps,
+    IQueryList,
+    IQueryString,
+    ISearchResult
+} from "./interfaces/search.interface"
