@@ -64,3 +64,10 @@ export {
     IQueryString,
     ISearchResult
 } from "./interfaces/search.interface"
+export {
+    ICertificate,
+    IEducation,
+    IExperience, SellerType,
+    ILanguage,
+    ISellerDocument
+} from "./interfaces/seller.interface"
