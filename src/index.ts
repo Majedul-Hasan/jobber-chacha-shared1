@@ -27,3 +27,14 @@ export {
 } from "./interfaces/chat.interface"
 
 export { IEmailLocals } from "./interfaces/email.interface"
+export {
+    GigType,
+    ICreateGig,
+    IGigCardItems,
+    IGigContext,
+    IGigInfo,
+    IGigTopProps,
+    IGigViewReviewsProps,
+    IGigsProps,
+    ISelectedBudget
+} from "./interfaces/gig.interface"
