@@ -22,7 +22,7 @@
   "author": "Majedul Hasan",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Majedul-Hasan/jobber-chacha-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
