@@ -71,3 +71,5 @@ export {
     ILanguage,
     ISellerDocument
 } from "./interfaces/seller.interface"
+
+export { uploads, videoUpload } from "./cloudinary-upload"
