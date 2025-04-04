@@ -79,3 +79,7 @@ export { CustomError, BadRequestError, ErrnoException, FileSystemError, FileTooL
 export { verifyGatewayRequest } from "./gateway-middleware"
 
 export { winstonLogger } from "./logger"
+export {
+    firstLetterUppercase, isDataURL, isEmail
+    , lowerCase, toUpperCase
+} from "./helpers"
