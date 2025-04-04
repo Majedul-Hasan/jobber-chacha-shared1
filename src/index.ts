@@ -40,7 +40,7 @@ export {
 } from "./interfaces/gig.interface"
 
 export {
-    IOrderNotifcation,
+    IOrderNotification,
     IOffer,
     IDeliveredWork,
     IExtendedDelivery,

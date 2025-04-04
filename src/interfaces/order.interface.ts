@@ -114,7 +114,7 @@ export interface IOrderDocument {
   paymentIntent?: string;
 }
 
-export interface IOrderNotifcation {
+export interface IOrderNotification {
   _id?: string;
   userTo: string;
   senderUsername: string;
