@@ -73,3 +73,5 @@ export {
 } from "./interfaces/seller.interface"
 
 export { uploads, videoUpload } from "./cloudinary-upload"
+
+export { CustomError, BadRequestError, ErrnoException, FileSystemError, FileTooLargeError, IError, IErrorResponse, NotAuthorizedError, NotFoundError, ServerError } from "./error-handler"
