@@ -11,7 +11,7 @@ export function uploads(file: string, public_id?: string, overwrite?: boolean, i
                 public_id,
                 overwrite,
                 invalidate,
-                resource_type: "auto"
+                resource_type: "auto" // zip audio or image files
             },
             (error: UploadApiErrorResponse | undefined, result: UploadApiResponse | undefined) => {
                 if (errors) resolve(error)
