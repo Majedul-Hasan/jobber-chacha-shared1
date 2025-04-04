@@ -80,3 +80,19 @@ export class ServerError extends CustomError {
         super(message, comingFrom);
     }
 }
+
+export interface ErrnoException extends Error {
+    errno?: number;
+    code?: string;
+    path?: string;
+    syscall?: string;
+    stack?: string;
+}
+export class FileSystemError extends CustomError {
+    statusCode = StatusCodes.INTERNAL_SERVER_ERROR;
+    status = 'error';
+
+    constructor(message: string, comingFrom: string) {
+        super(message, comingFrom);
+    }
+}
