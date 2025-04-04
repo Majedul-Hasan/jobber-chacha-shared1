@@ -62,3 +62,21 @@ export class NotFoundError extends CustomError {
         super(message, comingFrom);
     }
 }
+
+export class FileTooLargeError extends CustomError {
+    statusCode = StatusCodes.REQUEST_TOO_LONG;
+    status = 'error';
+
+    constructor(message: string, comingFrom: string) {
+        super(message, comingFrom);
+    }
+}
+
+export class ServerError extends CustomError {
+    statusCode = StatusCodes.SERVICE_UNAVAILABLE;
+    status = 'error';
+
+    constructor(message: string, comingFrom: string) {
+        super(message, comingFrom);
+    }
+}
