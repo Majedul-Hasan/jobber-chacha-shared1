@@ -75,3 +75,5 @@ export {
 export { uploads, videoUpload } from "./cloudinary-upload"
 
 export { CustomError, BadRequestError, ErrnoException, FileSystemError, FileTooLargeError, IError, IErrorResponse, NotAuthorizedError, NotFoundError, ServerError } from "./error-handler"
+
+export { verifyGatewayRequest } from "./gateway-middleware"
