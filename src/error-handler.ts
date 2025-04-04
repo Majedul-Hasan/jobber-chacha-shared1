@@ -53,3 +53,12 @@ export class NotAuthorizedError extends CustomError {
         super(message, comingFrom);
     }
 }
+
+export class NotFoundError extends CustomError {
+    statusCode = StatusCodes.NOT_FOUND;
+    status = 'error';
+
+    constructor(message: string, comingFrom: string) {
+        super(message, comingFrom);
+    }
+}
