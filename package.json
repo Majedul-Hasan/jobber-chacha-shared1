@@ -18,11 +18,11 @@
     "trailingComma": "es5"
   },
   "keywords": [],
-  "name": "@majedul-hasanm/jobber-chacha-shared1",
+  "name": "@majedul-hasan/jobber-chacha-shared1",
   "author": "Majedul Hasan",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Majedul-Hasanm/jobber-chacha-shared1.git"
+    "url": "git+https://github.com/Majedul-Hasan/jobber-chacha-shared1.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
