@@ -45,7 +45,6 @@
     "http-status-codes": "^2.3.0",
     "mongoose": "^8.12.0",
     "winston": "^3.17.0",
-    "@majedul-hasan/jobber-chacha-shared1": "0.1.4",
     "winston-elasticsearch": "^0.19.0"
   },
   "devDependencies": {
